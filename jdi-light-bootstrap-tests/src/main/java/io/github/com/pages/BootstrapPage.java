@@ -11,8 +11,9 @@ import com.epam.jdi.light.ui.bootstrap.elements.common.Badge;
 import com.epam.jdi.light.ui.bootstrap.elements.common.Breadcrumb;
 import com.epam.jdi.light.ui.bootstrap.elements.common.Button;
 import com.epam.jdi.light.ui.bootstrap.elements.common.Link;
-
 import com.epam.jdi.light.ui.bootstrap.elements.complex.Carousel;
+import com.epam.jdi.light.ui.bootstrap.elements.common.MultipleInputs;
+
 import com.epam.jdi.light.ui.bootstrap.elements.complex.Collapse;
 import io.github.com.sections.*;
 import io.github.com.sections.card.CardWithHeaderAndFooter;
@@ -152,5 +153,6 @@ public class BootstrapPage extends WebPage {
     @UI("#pagination-center") public static PaginationAlignCenter paginationAlignCenter;
     @UI("#pagination-end") public static PaginationAlignEnd paginationAlignEnd;
     @UI(".card-columns") public static CardColumns cardColumns;
+    @UI("#multiple-inputs") public static MultipleInputs multipleInputs;
     //endregion
 }
